@@ -65,7 +65,7 @@ type Validator struct {
 
 Geth (In this case, Bor) uses block `snapshot` to store state data for each block, including consensus related data.
 
-Each validator in span contains voting power. Based on their power, they get selected as block producers. Higher power, a higher probability of becoming block producers. Bor uses Tendermint's algorithm for the same. Source: [https://github.com/maticnetwork/bor/blob/master/consensus/bor/validator_set.go](https://github.com/maticnetwork/bor/blob/master/consensus/bor/validator_set.go)
+Each validator in span contains voting power. Based on their power, they get selected as block producers. Higher power, a higher probability of becoming block producers. Bor uses Tendermint's algorithm for the same. Source: [https://github.com/maticnetwork/bor/blob/master/consensus/bor/valset/validator_set.go](https://github.com/maticnetwork/bor/blob/master/consensus/bor/valset/validator_set.go)
 
 ## Sprint
 
